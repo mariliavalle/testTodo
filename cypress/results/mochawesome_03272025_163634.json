@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2025-03-27T19:36:26.033Z",
+    "end": "2025-03-27T19:36:34.575Z",
+    "duration": 8542,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8ab63aaa-676a-4545-8595-2673ac7a860b",
+      "title": "",
+      "fullFile": "cypress\\e2e\\loginIncorreto-api.cy.js",
+      "file": "cypress\\e2e\\loginIncorreto-api.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2d1fc1b9-e6ac-42d2-befa-edd79f2b8cc3",
+          "title": "Pagina de login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve falhar mesmo que os campos sejam preenchidos corretamente",
+              "fullTitle": "Pagina de login Deve falhar mesmo que os campos sejam preenchidos corretamente",
+              "timedOut": null,
+              "duration": 6888,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.login('ana@email.com', 'Senha123');\ncy.wait('@stubPost');\ncy.contains('Falha no login. Consulte suas credenciais.').should('be.visible');",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Falha no login. Consulte suas credenciais.' but never did.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find content: 'Falha no login. Consulte suas credenciais.' but never did.\n    at Context.eval (webpack:///./cypress/e2e/loginIncorreto-api.cy.js:12:66)",
+                "diff": null
+              },
+              "uuid": "3c1ddfca-2889-4eff-b445-e56347afae5e",
+              "parentUUID": "2d1fc1b9-e6ac-42d2-befa-edd79f2b8cc3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "3c1ddfca-2889-4eff-b445-e56347afae5e"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 6888,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "mmddyyyy_HHMMss"
+      },
+      "version": "6.2.0"
+    }
+  }
+}
