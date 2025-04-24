@@ -4,7 +4,7 @@ Este repositório apresenta uma suíte de testes automatizados desenvolvida com 
 
 O objetivo deste projeto é demonstrar competências em automação de testes de interface, cobrindo fluxos essenciais de uma aplicação de lista de tarefas — um cenário comum e altamente aplicável em projetos reais.
 
----
+
 
 ## 🧪 O que está sendo testado?
 
@@ -18,7 +18,7 @@ A suíte cobre cenários que refletem a jornada real do usuário:
 
 Os testes foram escritos de forma limpa, com foco em legibilidade, manutenibilidade e reusabilidade dos comandos.
 
----
+
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -26,7 +26,7 @@ Os testes foram escritos de forma limpa, com foco em legibilidade, manutenibilid
 - **JavaScript (ES6+)** – Linguagem principal dos testes
 - **Node.js** – Gerenciamento de dependências e execução
 
----
+
 
 ## 🧠 Diferenciais do Projeto
 
@@ -36,7 +36,7 @@ Os testes foram escritos de forma limpa, com foco em legibilidade, manutenibilid
 - Testes com foco em comportamento e experiência do usuário
 - Nomeclatura semântica e descritiva para facilitar manutenção
 
----
+
 
 ## 👩‍💻 Sobre mim
 
